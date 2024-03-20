@@ -171,3 +171,31 @@ header {
       opacity: 1;
     }
   }
+
+  @media (max-width: 768px) {
+    
+    .hi-text { 
+        font-size: 65px;
+        margin-bottom: -195px;
+    }
+
+    .name-text {
+      font-size: 220px;
+      line-height: 167px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .hi-text { 
+        font-size: 50px;
+        margin-bottom: -130px;
+    }
+
+    .name-text {
+      font-size: 150px;
+      line-height: 115px;
+    }
+
+}
